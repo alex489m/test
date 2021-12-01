@@ -128,20 +128,6 @@ ActionButtons.onButtonPress(
     singlePress: {
        func: switchRelay,
        prop: ["wb-mr6c_200", "K1"]
-    },
-    doublePress: {
-     
-      func: switchOff, prop: ["wb-mr6c_200", "K2"]
-        //func: switchDimmerRGB,
-        //prop: ["wb-mr6c_10", "K2", "wb-mrgbw-d_24"]
-    },
-    longPress: {
-      func: switchRelay,
-       prop: ["wb-mr6c_200", "K3"]
-      
-      // func: switchRelay, prop: ["wb-mio-gpio_157:2", "K3"]
-        //func: setRandomRGB,
-        //prop: ["wb-mr6c_10", "K2", "wb-mrgbw-d_24"]
     }
 },
 300, 1000
