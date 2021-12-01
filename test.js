@@ -142,7 +142,7 @@ function switchRelay(device, control) { //Принимает в параметр
   dev[device][control] = !dev[device + "/" + control];
 }
 
-function switchOff(device, control) { //Принимает в параметрах устройство и выход. Переключает состояние выхода на противоположное.
+function switchOff(device, control) { //Принимает в параметit add .рах устройство и выход. Переключает состояние выхода на противоположное.
   log.info("LongPress switchRelay" ,device, control)//Это лог. Он попадает в /var/log/messages
   dev[device][control] = false;
 }
